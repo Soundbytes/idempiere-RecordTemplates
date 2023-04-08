@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.soundbytes.recordtemplates.feature"
+      label="de.soundbytes.recordtemplates.feature"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.adempiere.plugin.utils" version="8.2.0" match="greaterOrEqual"/>
+      <import plugin="org.adempiere.base" version="8.2.0" match="greaterOrEqual"/>
+      <import plugin="org.adempiere.ui" version="8.2.0" match="greaterOrEqual"/>
+      <import plugin="org.adempiere.ui.zk" version="8.2.0" match="greaterOrEqual"/>
+      <import plugin="zk" version="9.5.0" match="greaterOrEqual"/>
+      <import plugin="zcommon" version="9.5.0" match="greaterOrEqual"/>
+      <import plugin="zul" version="9.5.0" match="greaterOrEqual"/>
+      <import plugin="zhtml" version="9.5.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.collections" version="3.2.2" match="greaterOrEqual"/>
+      <import plugin="org.idempiere.zk.extra"/>
+   </requires>
+
+   <plugin
+         id="de.soundbytes.recordtemplates"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
